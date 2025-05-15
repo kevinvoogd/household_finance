@@ -1,6 +1,40 @@
 # Expo Supabase Starter
 
-![social-preview-dark](https://github.com/user-attachments/assets/9697a7da-10aa-4661-bb76-b5bc0dd611f0)
+You want to build a cross-platform expense splitting app (like Splitwise or Tricount) with additional features such as household investment tracking.
+
+💻 Tech Stack
+Frontend:
+
+React Native + Expo for iOS and Android
+
+React + Vite + Tailwind for Web
+
+Backend:
+
+Using Supabase as a backend-as-a-service (authentication, database, storage)
+
+Folder Structure:
+
+mobile/ — React Native app
+
+web/ — Web app
+
+shared/ — Shared logic: Supabase client, auth hooks, utils, models
+
+🧩 Enhancements So Far
+✅ Defined a scalable folder structure supporting both web and mobile
+
+✅ Extracted shared logic into a shared/ directory
+
+✅ Set up module path aliasing (@shared/*) for clean imports
+
+✅ Discussed free-tier usage of Supabase and Vercel
+
+✅ Explored options to expand to mobile using Expo
+
+✅ Looked at GitHub starter repos for Supabase + Expo
+
+✅ Clarified that the current setup doesn't yet have a custom backend (just Supabase)
 
 ## Introduction
 
